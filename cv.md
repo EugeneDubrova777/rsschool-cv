@@ -28,3 +28,5 @@ console.log(5, 2);
 ### Experience:
 * No experience in programming, apart homework;
 
+### English level:
+* A2
