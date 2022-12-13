@@ -10,7 +10,7 @@
 ### Code example:
 
 ```
-const function min(a, b) {
+function min(a, b) {
     if (a < b) {
         return a;
     } else return b;
@@ -29,4 +29,4 @@ console.log(5, 2);
 * No experience in programming, apart homework;
 
 ### English level:
-* A2
+* A28
