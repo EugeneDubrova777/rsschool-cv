@@ -1,0 +1,14 @@
+.header {
+  width: 100%;
+  height: 100px;
+  background: black;
+
+  display: flex;
+}
+.header__welcome {
+}
+.header__welcome-h1 {
+  color: #db4723;
+}
+.header__nav {
+}
