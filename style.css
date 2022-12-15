@@ -13,11 +13,10 @@
   justify-content: space-around;
   align-items: center;
 }
-.header__welcome {
-}
 .header__welcome-h1 {
   margin: 0 30px;
   color: #ffffff;
+  text-shadow: 0 3px 3px #ff0000;
 }
 .header__nav {
   display: flex;
@@ -30,8 +29,18 @@
 .header__nav-item {
   justify-content: space-between;
   margin: 0 30px;
-  color: #db4723;
   list-style-type: none;
+}
+.header__nav-item > a {
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 0 4px 3px #ff0000;
+}
+.header__nav-item > a:hover {
+  color: #ff0000;
+}
+.header__nav-item > a:active {
+  color: #ffffff;
 }
 
 .main {
@@ -74,10 +83,12 @@
 .footer__a-img {
   width: 150px;
   border-radius: 10px;
+  box-shadow: 0 5px 10px #ff0000;
   margin-left: 20px;
 }
 .footer__year {
   font-size: 30px;
   color: #ffffff;
+  text-shadow: 0 3px 3px #ff0000;
   margin-right: 20px;
 }
