@@ -8,14 +8,15 @@
 
 .wrapper {
   max-width: 100%;
-  background: #b486727a;
+  background: #f2e0e0;
   display: grid;
   grid-template-rows: 70px 1fr 100px;
-  row-gap: 3px;
+  row-gap: 10px;
 }
 .header {
   width: 100%;
   background: #000000;
+  box-shadow: 0 0 5px #ff0000;
 
   display: flex;
   justify-content: space-around;
@@ -57,6 +58,7 @@
 
 .main {
   background: #af7222;
+  box-shadow: 0 0 5px #ff0000;
   display: flex;
 }
 
@@ -103,6 +105,7 @@
 
 .footer {
   background: #000000;
+  box-shadow: 0 0 5px #ff0000;
   display: flex;
   justify-content: space-between;
   align-items: center;
