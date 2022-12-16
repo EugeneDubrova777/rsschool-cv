@@ -6,6 +6,10 @@
   font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth; 
+}
+
 .wrapper {
   max-width: 100%;
   background: #f2e0e0;
