@@ -15,7 +15,7 @@
 }
 .header {
   width: 100%;
-  background: #000000;
+  background: #303030;
   box-shadow: 0 0 5px #ff0000;
 
   display: flex;
@@ -104,11 +104,15 @@
 
 
 .footer {
-  background: #000000;
+  background: #303030;
   box-shadow: 0 0 5px #ff0000;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.footer__github {
+  width: 70px;
 }
 
 
